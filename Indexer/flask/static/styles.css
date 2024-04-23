@@ -1,0 +1,59 @@
+/* Styling for the entire document */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ccccff;
+}
+
+/* Styling for the main content container */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Styling for the search form */
+form {
+    text-align: center;
+}
+
+/* Styling for the input field */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+}
+
+/* Styling for the search button */
+button {
+    padding: 10px 20px;
+    background-color: #339933;
+    color: #000000;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+}
+
+/* Styling for the search button on hover */
+button:hover {
+    background-color: #336699;
+}

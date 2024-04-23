@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Processor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            background-image: url("C:/Users/Jaidev/Downloads/Marvel-Comics-Logo.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: white;
+            font-size: 32px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ebdede;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Query Engine</h1>
+        <form action="/query" method="post">
+            <label for="query">Your query here:</label><br>
+            <input type="text" id="query" name="query"><br><br>
+            <button type="submit">Enter</button>
+        </form>
+    </div>
+</body>
+</html>
