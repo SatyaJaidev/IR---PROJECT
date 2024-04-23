@@ -1,3 +1,8 @@
+
+                                                                                IR -REPORT
+                                                                              N. SATYA JAIDEV
+
+
 **Abstract:**
 
 This project focuses on developing a robust web document retrieval system by leveraging Python 3.10+, Scikit-Learn 1.2+, Scrapy 2.11+, and Flask 2.2+. The system comprises three key components: a Scrapy-based Crawler for downloading web documents, a Scikit-Learn-based Indexer for constructing an inverted index, and a Flask-based Processor for handling free text queries. The abstract encapsulates the project's development summary, objectives, and potential next steps.
